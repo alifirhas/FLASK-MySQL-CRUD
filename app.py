@@ -1,7 +1,7 @@
 # Contains App and routes
 from flask import Flask
 from flask_restful import Api
-from resources.Index import Index
+from resources import resources
 import os
 from dotenv import load_dotenv
 
@@ -12,7 +12,7 @@ app = Flask(__name__)
 api = Api(app)
 
 # Routes
-api.add_resource(Index, '/')
+api.add_resource(resources.Index, '/')
 
 if __name__ == "__main__":
     app.run(debug=os.getenv("debug"))
