@@ -1,24 +1,20 @@
-# FLASK-MySQL-CRUD
 
 ![Project Image](public/images/FLASK-MC.png)
-
 
 ---
 
 ### Table of Contents
 
-- [FLASK-MySQL-CRUD](#flask-mysql-crud)
-    - [Table of Contents](#table-of-contents)
-  - [Description](#description)
-      - [Technologies](#technologies)
-  - [How To Use](#how-to-use)
-      - [Download](#download)
-      - [Installation](#installation)
-      - [API Reference](#api-reference)
-  - [References](#references)
-  - [Todo](#todo)
-  - [License](#license)
-  - [Author Info](#author-info)
+- [Description](#description)
+    - [Technologies](#technologies)
+- [How To Use](#how-to-use)
+    - [Download](#download)
+    - [Installation](#installation)
+    - [API Reference](#api-reference)
+- [References](#references)
+- [Todo](#todo)
+- [License](#license)
+- [Author Info](#author-info)
 
 ---
 
@@ -39,13 +35,15 @@ Project ini dibuat dengan tujuan mengetahui konfigurasi struktur file dan folder
 
 #### Download
 
-Download repository menggunakan 
+1. Download repository pada release page [Release Page](https://github.com/alifirhas/FLASK-MySQL-CRUD/releases) untuk stable release,
+
+2. Download repositroy menggunakan `git clone` untuk melihat pembaruan terbaru
 
 ```
 git clone https://github.com/alifirhas/FLASK-MySQL-CRUD.git
 ```
 
-atau menggunakan [zip download](https://github.com/alifirhas/FLASK-MySQL-CRUD/archive/refs/heads/master.zip) jika anda tidak menginginkan/memerlukan .git folder.
+3. atau menggunakan [zip download](https://github.com/alifirhas/FLASK-MySQL-CRUD/archive/refs/heads/master.zip) jika anda tidak menginginkan/memerlukan .git folder.
 
 #### Installation
 
