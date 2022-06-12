@@ -2,7 +2,7 @@ import requests
 
 BASE = "http://127.0.0.1:5000/"
 
-# response = requests.get(BASE + "")
+response = requests.get(BASE + "")
 
 # response = requests.post(BASE + "", {
 #     "nama": "gege",
@@ -17,8 +17,8 @@ BASE = "http://127.0.0.1:5000/"
 #     "username": "gogo"
 # })
 
-response = requests.delete(BASE, params={
-    "id": "61",
-})
+# response = requests.delete(BASE, params={
+#     "id": "61",
+# })
 
 print(response.json())
