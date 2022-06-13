@@ -1,15 +1,14 @@
 import mysql.connector
-import configparser
 import os
+from dotenv import load_dotenv
 
-config = configparser.ConfigParser()
-config.read(os.path.dirname(__file__) + '/../config.ini')
+load_dotenv()
 
 mydb = mysql.connector.connect(
-    host=config['Database']['Host'],
-    user=config['Database']['User'],
-    password=config['Database']['Password'],
-    database=config['Database']['DBName']
+    host=os.getenv('DB_HOST'),
+    user=os.getenv('DB_USERNAME'),
+    password=os.getenv('DB_PASSWORD'),
+    database=os.getenv('DB_DATABASE')
 )
 
-cursor = mydb.cursor(dictionary=True)
+cursor = mydb.cursor(dictionary=(os.getenv('DB_DICTIONARY') == 'True'))

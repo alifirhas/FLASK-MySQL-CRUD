@@ -1,7 +1,5 @@
-from multiprocessing import connection
 from flask import jsonify
 from flask_restful import Resource, reqparse
-from pkg_resources import require
 from common.connection import mydb, cursor
 
 user_parser_post = reqparse.RequestParser()
