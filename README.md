@@ -6,6 +6,7 @@
 ### Table of Contents
 
 - [Description](#description)
+    - [Feature](#feature)
     - [Technologies](#technologies)
 - [How To Use](#how-to-use)
     - [Download](#download)
@@ -21,6 +22,11 @@
 ## Description
 
 Project ini dibuat dengan tujuan mengetahui konfigurasi struktur file dan folder yang bisa dilakukan dengan Flask-RESTful dan MySQL. Proses atau logic yang berada disini akan dibuat sesederhan mungkin dengan menerapkan basic logic untuk CRUD (dan update berikutnya file logic). 
+
+#### Feature
+
+1. Struktur file intermediete Flask-RESTful
+2. Basic CRUD Logic dengan MySQL
 
 #### Technologies
 
@@ -148,7 +154,7 @@ Sampel penggunaan API ada pada file [test.py](test.py)
 
 ## Todo
 
-- [ ] ENV Setting
+- [x] ENV Setting
 - [ ] File Upload
 
 [Back To The Top](#read-me-template)
